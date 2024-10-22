@@ -465,7 +465,8 @@
 
                             <tbody>
 
-                                <tr>
+
+                                <!-- <tr>
 
                                     <td>1</td>
 
@@ -563,7 +564,7 @@
                                         </button>
 
                                     </td>
-                                </tr>
+                                </tr> -->
 
                             </tbody>
 
@@ -575,41 +576,23 @@
 
                             <div class="form-item">
 
-                                <label for="search">Search Medicine brand</label> <br/>
+                                <label for="medicineClassDropdown">Search Medicine Class</label> <br/>
 
-                                <select title="search medicine brand" id="search">
+                                <select title="search medicine class" class="search" id="medicineClassDropdown">
 
-                                    <option>
-                                        search medicine brand
-                                    </option>
+                                    <!--Options will be automatically populated with API-->
 
-                                    <option>
+                                </select>
 
-                                        <span>
-                                            Emzor Paracetamol Tab 250mg  
-                                        </span>
+                            </div>
 
-                                        <br/>
+                            <div class="form-item">
 
-                                        <span>
-                                            (10 sachet left)
-                                        </span>
+                                <label for="medicineNameDropdown">Search Medicine Name</label> <br/>
 
-                                    </option>
+                                <select title="search medicine name" class="search" id="medicineNameDropdown">
 
-                                    <option>
-
-                                        <span>
-                                            Paracetamol 
-                                        </span>
-
-                                        <br/>
-
-                                        <span>
-                                            (5 bottles left)
-                                        </span>
-
-                                    </option>
+                                    <!--Options will be automatically populated with API-->
 
                                 </select>
 
@@ -642,6 +625,8 @@
                             <button type="submit">Add</button>
 
                     </form>
+
+                    
 
                     <button id="next" type="button">
 
