@@ -1,2 +1,2 @@
 # Netwalkers-Internship
-A collection of my tasks in my 3-month with Netwalkers Ng
+A collection of my tasks in my 2-month with Netwalkers Ng
